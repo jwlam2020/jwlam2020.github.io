@@ -30,7 +30,8 @@ a {
 .links-container {
   display: flex;
   flex-direction: column;
-  jusify-content: center space-between;
+  jusify-content: center;
+  gap: 1em;
   align-items: center;
 }
 
