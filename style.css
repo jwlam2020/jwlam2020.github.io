@@ -23,6 +23,10 @@ a {
   font-size: x-large;
 }
 
+body {
+  background-color: black;
+}
+
 .w3-border {
   border: 3px solid #ccc !important;
 }
