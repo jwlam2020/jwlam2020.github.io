@@ -82,11 +82,6 @@ body {
   text-decoration: none;
 }
 
-.icons a svg {
-  fill: #d0ecf7;
-  transform: scale(1.5);
-}
-
 @media screen and (min-width: 768px) {
   .link {
     width: 100%;
