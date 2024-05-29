@@ -96,6 +96,10 @@ body {
 }
 
 .icons a {
+  display: flex;
+  gap: 2rem;
+  jusify-content: center;
+  align-items: center;
   text-decoration: none;
 }
 
