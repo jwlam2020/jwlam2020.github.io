@@ -23,6 +23,11 @@ a {
   font-size: x-large;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
 body {
   background-color: white;
   font-family: Verdana, sans-serif;
