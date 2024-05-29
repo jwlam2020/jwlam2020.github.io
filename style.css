@@ -1,8 +1,8 @@
 .container {
   width: 100%;
   height: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -27,7 +27,7 @@ a {
 
 a:link, a:visited {
   color: black;
-  padding: 5% 5%;
+  padding: 1rem 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -39,14 +39,14 @@ body {
 }
 
 .w3-border {
-  border: 3px solid #ccc !important;
+  border: 0.19rem solid #ccc !important;
 }
 
 .links-container {
   display: flex;
   flex-direction: column;
   jusify-content: center;
-  gap: 1em;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -55,11 +55,11 @@ body {
 }
 
 .profession {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .subscribe {
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .submit form {
@@ -68,7 +68,7 @@ body {
 }
 
 .submit form button {
-  margin-top: 5px;
+  margin-top: 1rem;
   background-color: rgba(27, 122, 159, 0.9) !important;
   color: #fff !important;
 }
@@ -86,7 +86,7 @@ body {
 
 .icons {
   display: flex;
-  gap: 40px;
+  gap: 2rem;
 }
 
 .icons a {
@@ -96,21 +96,21 @@ body {
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 10rem; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-top: 1rem;
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 0.4rem 0.5rem 0.4rem 1rem;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1rem;
   color: #818181;
   display: block;
 }
@@ -122,14 +122,14 @@ body {
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  margin-left: 10rem; /* Same as the width of the sidebar */
+  padding: 0rem 1rem;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 1rem;}
+  .sidenav a {font-size: 1rem;}
 }
 
 @media screen and (min-width: 768px) {
