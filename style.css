@@ -24,8 +24,13 @@ a {
 }
 
 /* unvisited link */
-a:link {
+
+a:link, a:visited {
   color: black;
+  padding: 10% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 body {
