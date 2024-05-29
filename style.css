@@ -33,6 +33,10 @@ a:link, a:visited {
   display: inline-block;
 }
 
+a:hover {
+  background-color: grey;
+}
+
 body {
   background-color: white;
   font-family: Verdana, sans-serif;
