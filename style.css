@@ -8,15 +8,7 @@
 }
 
 .name {
-  margin-top: 15px !important;
-}
-
-.w3-theme-d3 {
-  background-color: rgba(42, 169, 219, 0.6) !important;
-}
-
-.w3-theme-d3:hover {
-  background-color: rgba(42, 169, 219, 0.8) !important;
+  margin-top: 1rem !important;
 }
 
 a {
